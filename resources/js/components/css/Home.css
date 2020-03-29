@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.huts{
+    text-align: center;
+    position:relative;
+    width:100%;
+    height:60vh;
+    bottom:1px;
+}
+.househuts{
+    background: none repeat scroll 0 0;
+    font-family: "Raleway",sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    height: 60vh; 
+    line-height: 150px;
+    text-transform: uppercase;
+    min-width: 100%;
+}
+.animate {
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+
+  @-webkit-keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1.5;
+    }
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1.5;
+    }
+  }
+
+  @keyframes topFadeOut {
+    0% {
+      position: relative;
+      top: -3rem;
+      opacity: 0;
+    }
+  
+    75% {
+      position: relative;
+      top: 25%;
+      opacity: 1;
+    }
+  
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  
+  .fadeIn {
+      -webkit-animation-name: fadeIn;
+      animation-name: fadeIn;
+  }
+
+  .five {
+    -webkit-animation-delay: 0.5s;
+    -moz-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+    }
+
+.header{    
+   
+    display: flex;
+}
+
+.tagline{
+    flex: 1;
+    margin-left: 40%;
+    font-weight: 900;
+    font-size: 30px;
+    font-family: cursive;
+    color: black;
+    
+}
+
+.content-color{
+    color: #e46b0f;
+}
+.tagline-2{
+    margin-left: 18%;
+    margin-top: -10%;
+    
+}
+.profile{
+    flex: 1;
+}
+.profile-button{
+    margin-left: 50%;
+}
+#dropdown-basic{
+    background-color: unset;
+    opacity: 1;
+    border-color: none;
+    border-radius: 50%;
+    border: none;
+    
+}
+.profile-button-links{
+    color: #e46b0f;
+}
+#dropdown-basic:focus{ 
+    outline: none;
+}
+.ourRooms{
+    margin-top: 120px;
+}
+
+.font-heading {
+    font-size: 45px;
+    font-family: Lucida Sans;
+    text-decoration: underline;
+}
+.aboutUs{
+    margin-top: 150px;
+}
+.aboutusContent{
+    word-spacing: 3px;
+    color: gray;
+}
+.hotelFeatures{
+    margin-top: 150px;
+}
+.testimonials{
+    margin-top: 150px;
+}

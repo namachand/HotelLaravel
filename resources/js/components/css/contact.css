@@ -1,0 +1,10 @@
+.crd {
+    margin: 0 auto; 
+    float: none; 
+    height:500px;
+    top:100px
+}
+.content{
+    text-align: center;
+    align-items: center;
+}
