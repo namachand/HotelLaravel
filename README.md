@@ -7,10 +7,10 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
-clone the app 
-then at cmd type npm install
-then type npm run watch 
-then at another terminal type php artisan serve
+<p>clone the app</p> 
+<p>then at cmd type npm install</p>
+<p>then type npm run watch</p> 
+<p>then at another terminal type php artisan serve</p>
 
 ## About Laravel
 
